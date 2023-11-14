@@ -75,11 +75,12 @@ stages:
             inputs:
               versionSpec: '$(pythonVersion)'
             displayName: 'Use Python version'
-
           - task: AzureRmWebAppDeployment@4
-            displayName: 'Deploy Azure Web App'
             inputs:
-              WebAppName: '$(webAppName)'
+              ConnectionType: 'AzureRM'
               azureSubscription: 'Testing'
               appType: 'webAppLinux'
-              package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
+              WebAppName: '$(webAppName)'
+              packageForLinux: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
+              RuntimeStack: 'PYTHON|3.7'
+              StartupCommand: 'python app.py'
