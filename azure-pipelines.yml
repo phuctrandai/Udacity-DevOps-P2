@@ -76,10 +76,9 @@ stages:
               versionSpec: '$(pythonVersion)'
             displayName: 'Use Python version'
 
-          - task: AzureWebApp@1
+          - task: AzureRmWebAppDeployment@4
             displayName: 'Deploy Azure Web App'
             inputs:
               azureSubscription: 'Testing'
               appType: 'webAppLinux'
-              appName: $(webAppName)
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
