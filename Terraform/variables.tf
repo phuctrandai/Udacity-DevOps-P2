@@ -1,7 +1,7 @@
 variable "resource_group_name" {
   type        = string
   description = "required"
-  default = "udacity-devops-p2"
+  default = "rs-udacity-devops-p2"
 }
 
 variable "location" {
