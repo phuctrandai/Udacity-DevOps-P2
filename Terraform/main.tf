@@ -22,6 +22,11 @@ resource "azurerm_linux_web_app" "this" {
   service_plan_id     = azurerm_service_plan.this.id
 
   site_config {
+    application_stack {
+      python_version = "3.7"
+    }
+    app_command_line = "python app.py"
+    scm_use_main_ip_restriction = true
     always_on = false
   }
 }
