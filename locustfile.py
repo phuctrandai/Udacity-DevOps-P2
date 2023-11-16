@@ -28,7 +28,8 @@ class PredictionUser(HttpUser):
         }
 
         # Send a POST request to the prediction API endpoint
-        response = self.client.post("https://wa-udacity-devops-p2.azurewebsites.net/predict", json=payload)
+        headers = {"Content-Type": "application/json"}
+        response = self.client.post("https://wa-udacity-devops-p2.azurewebsites.net/predict", json=payload, headers=headers)
 
         # Validate the response if needed
         if response.status_code == 200:
