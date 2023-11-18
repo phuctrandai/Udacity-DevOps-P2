@@ -33,12 +33,10 @@ class PredictionUser(HttpUser):
 
         # Validate the response if needed
         if response.status_code == 200:
-            response.success()
             # Extract and print the prediction result
             prediction_result = response.json()
             print(f"Prediction Result: {prediction_result}")
         else:
-            response.failure("Failed")
             print(f"Error: {response.status_code}, {response.text}")
 
 # Run Locust with the following command:
