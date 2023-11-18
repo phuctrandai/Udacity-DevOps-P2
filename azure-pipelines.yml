@@ -52,7 +52,6 @@ stages:
         archiveType: zip
         archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
         replaceExistingArchive: true
-
     - upload: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
       displayName: 'Upload package'
       artifact: drop
@@ -70,7 +69,6 @@ stages:
       runOnce:
         deploy:
           steps:
-
           - task: UsePythonVersion@0
             inputs:
               versionSpec: '$(pythonVersion)'
@@ -83,4 +81,3 @@ stages:
               WebAppName: '$(webAppName)'
               packageForLinux: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
               RuntimeStack: 'PYTHON|3.7'
-              StartupCommand: 'python app.py'
