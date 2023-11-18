@@ -25,7 +25,6 @@ resource "azurerm_linux_web_app" "this" {
     application_stack {
       python_version = "3.7"
     }
-    app_command_line = "python app.py"
     scm_use_main_ip_restriction = true
     always_on = false
   }
