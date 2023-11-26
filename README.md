@@ -5,14 +5,14 @@ This project is about building a Github repository from scratch and creating a s
 The project demonstrates the ability to perform continuous delivery for a Python-based machine learning application using the Flask web framework. The application is a Machine Learning Microservice API that predicts housing prices in Boston based on several features.
 
 ## Project Plan
-<TODO: Project Plan
 
 * A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+  https://trello.com/b/pYSDAxRP/udacity-devops-project-2
+* A link to a spreadsheet that includes the original and final project plan
 
 ## Instructions
 
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram (Shows how key parts of the system work)
   ![Architectural Diagram](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/System%20Diagram.jpg)
 
 * To run this project, you need to follow the below steps:
@@ -24,7 +24,7 @@ terraform apply
 ```
   - The final step is setup Continuous Delivery (CD) with Azure Pipelines to deploy the application to the Azure App Service. You can see the code setup CD in the file azure-pipelines.yml.
 
-See the video demo at the end of the page to learn how to setup in more detail. And the result of will be these screenshots:
+See the video demo at the end of the page to learn how to setup in more detail. And the result will be these screenshots:
 
 * Project running on Azure App Service
   ![Project running on Azure App Service](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Project%20running%20on%20Azure%20App%20Service.jpg)
@@ -58,13 +58,14 @@ Port: 443
 
 * Output of streamed log files from deployed application
   ![Output of streamed log files from deployed application](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Output%20of%20streamed%20log%20files%20from%20deployed%20application.jpg)
+  
   ![Output of streamed log files from deployed application](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Output%20of%20streamed%20log%20files%20from%20deployed%20application_2.jpg)
 
 > 
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+* 
 
 ## Demo 
 
