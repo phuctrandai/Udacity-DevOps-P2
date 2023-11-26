@@ -6,9 +6,10 @@ The project demonstrates the ability to perform continuous delivery for a Python
 
 ## Project Plan
 
-* A link to a Trello board for the project
+* A link to a Trello board for the project: 
   https://trello.com/b/pYSDAxRP/udacity-devops-project-2
-* A link to a spreadsheet that includes the original and final project plan
+* A link to a spreadsheet that includes the original and final project plan: 
+  https://docs.google.com/spreadsheets/d/1JBORo2_5jLbDPJ5ut35uUJO17EUqv3E7xM30RJ-4xcc/edit?usp=sharing
 
 ## Instructions
 
