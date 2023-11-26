@@ -12,10 +12,19 @@ The project demonstrates the ability to perform continuous delivery for a Python
 
 ## Instructions
 
-<TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
+  ![Architectural Diagram](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/System%20Diagram.jpg)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+* To run this project, you need to follow the below steps:
+  - Setup Continuous Integration (CI) with GitHub Action and running Test, Lint from the Makefile, requirements.txt. You can see the code setup CI in the file.github/workflows/pythonapp.yml.
+  - Next, we will create an Azure App Service to run the application using Terraform. This can be completed by running the file Terraform/main.tf with the below command line:
+```bash
+terraform plan
+terraform apply
+```
+  - The final step is setup Continuous Delivery (CD) with Azure Pipelines to deploy the application to the Azure App Service. You can see the code setup CD in the file azure-pipelines.yml.
+
+See the video demo at the end of the page to learn how to setup in more detail.
 
 * Project running on Azure App Service
   ![Project running on Azure App Service](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Project%20running%20on%20Azure%20App%20Service.jpg)
