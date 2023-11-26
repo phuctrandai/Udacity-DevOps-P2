@@ -1,6 +1,8 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This project is about building a Github repository from scratch and creating a scaffolding that will assist in performing both Continuous Integration and Continuous Delivery. The project uses Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, the project integrates with Azure Pipelines to enable Continuous Delivery to Azure App Service.
+
+The project demonstrates the ability to perform continuous delivery for a Python-based machine learning application using the Flask web framework. The application is a Machine Learning Microservice API that predicts housing prices in Boston based on several features.
 
 ## Project Plan
 <TODO: Project Plan
