@@ -24,7 +24,7 @@ terraform apply
 ```
   - The final step is setup Continuous Delivery (CD) with Azure Pipelines to deploy the application to the Azure App Service. You can see the code setup CD in the file azure-pipelines.yml.
 
-See the video demo at the end of the page to learn how to setup in more detail.
+See the video demo at the end of the page to learn how to setup in more detail. And the result of will be these screenshots:
 
 * Project running on Azure App Service
   ![Project running on Azure App Service](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Project%20running%20on%20Azure%20App%20Service.jpg)
