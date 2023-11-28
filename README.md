@@ -16,7 +16,7 @@ The project demonstrates the ability to perform continuous delivery for a Python
 * Architectural Diagram (Shows how key parts of the system work)
   ![Architectural Diagram](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/System%20Diagram.jpg)
 
-* To run this project, you need to follow the below steps:
+To run this project, you need to follow the below steps:
 * Setup Continuous Integration (CI) with GitHub Action and running Test, Lint from the Makefile, requirements.txt. You can see the code setup CI in the file .github/workflows/pythonapp.yml.
 * Next, we will create an Azure App Service to run the application using Terraform. This can be completed by running the file Terraform/main.tf with the below command line:
 ```bash
@@ -66,7 +66,7 @@ Port: 443
 
 ## Enhancements
 
-* 
+ 
 
 ## Demo 
 
