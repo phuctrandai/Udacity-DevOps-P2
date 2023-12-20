@@ -47,6 +47,9 @@ See the video demo at the end of the page to learn how to setup in more detail. 
   ![Running Azure App Service from Azure Pipelines automatic deployment](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Project%20running%20on%20Azure%20App%20Service.jpg)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
+
+* The application running against a load test with locust. [The application running against a load test with locust](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Loadtest%20with%20Locust.jpg)
+
 The output should look similar to this:
 
 ```bash
@@ -66,8 +69,8 @@ Port: 443
 
 ## Enhancements
 
-1. Implement Terraform to make the step build infra faster
-2. Implement the Packer to fast create and reuse the virtual machine as an build agent with automatically install the dependency.
+1. Implement the Packer to create and reuse the virtual machine as an build agent.
+2. Split the build and deploy into two pipeline: Build and Release pipeline.
 
 ## Demo 
 [Video Demo for this Project](https://youtu.be/FPebUj41Cn0)
