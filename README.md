@@ -66,9 +66,6 @@ Port: 443
 
 ## Enhancements
 
-
- 
-
 ## Demo 
 
 <TODO: Add link Screencast on YouTube>
