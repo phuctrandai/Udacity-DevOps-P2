@@ -47,9 +47,6 @@ See the video demo at the end of the page to learn how to setup in more detail. 
   ![Running Azure App Service from Azure Pipelines automatic deployment](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Project%20running%20on%20Azure%20App%20Service.jpg)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-
-* The application running against a load test with locust. [The application running against a load test with locust](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Loadtest%20with%20Locust.jpg)
-
 The output should look similar to this:
 
 ```bash
@@ -57,8 +54,10 @@ udacity@Azure:~$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[20.35373177134412]}
 ```
-
 ![Successful prediction from deployed flask app in Azure Cloud Shell](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Successful%20prediction%20from%20deployed%20flask%20app%20in%20Azure%20Cloud%20Shell.jpg)
+
+* The application running against a load test with locust.
+  ![The application running against a load test with locust](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Loadtest%20with%20Locust.jpg)
 
 * Output of streamed log files from deployed application
   ![Output of streamed log files from deployed application](https://github.com/phuctrandai/Udacity-DevOps-P2/blob/main/screenshots/Output%20of%20streamed%20log%20files%20from%20deployed%20application.jpg)
